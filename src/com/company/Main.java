@@ -20,7 +20,7 @@ public class Main {
             System.out.print("Познай четирицифреното число без повтарящи се цифри ");
             int guess = input.nextInt();
                 if(hasD(guess) || guess < 1000){
-                    System.out.println("Въвел си еднакви числа или са по-малко от четири");
+                    System.out.println("Въвел си еднакви числа или са по-малко от четири или са повече от четири");
                     continue;
                 }
 
